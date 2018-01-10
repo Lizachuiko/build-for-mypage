@@ -13,7 +13,15 @@
     <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyABlCQL4losoj-uF4TOyPIQiT1XBcz4dUQ&amp;callback=initMap" async defer></script>
   </head>
   <body>
-    <div class="works__wrapper">
+    <div class="works__wrapper" id="works__wrapper">
+      <div class="full-menu__container">
+        <div class="full-menu__nav">
+          <div class="full-menu__item"><a class="nav__link" href="#" data-scroll-to="1">Мои работы</a></div>
+          <div class="full-menu__item"><a class="nav__link" href="#" data-scroll-to="2">Блог</a></div>
+          <div class="full-menu__item"><a class="nav__link" href="#" data-scroll-to="3">Обо мне</a></div>
+          <div class="full-menu__item"><a class="nav__link" href="#" data-scroll-to="4">Авторизация</a></div>
+        </div>
+      </div>
       <section class="section hero Background">
         <canvas class="Background-canvas section-title__effect"></canvas>
         <div class="hero__socials">
@@ -30,8 +38,7 @@
               </svg>
             </div>
           </ul>
-        </div><a class="hamburger-link hero__menu" href="">
-          <div class="hamburger"></div></a>
+        </div><a class="hamburger-link hero__menu hamburger" href="#" id="hamburger"><span class="line"></span><span class="line"></span><span class="line"></span></a>
         <div class="hero__title">
           <div class="section-title"></div>
           <div class="hero__user user">
